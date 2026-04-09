@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Designs & Gallery | NR Plus Construction & Engineering</title>
+  <meta name="description" content="Explore our portfolio of custom 1, 2 and 3 storey homes and commercial office buildings across Colombo, Sri Lanka." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon">NR</div>
+        <div class="logo-text">
+          <strong>NR Plus</strong>
+          <span>Construction & Engineering</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="designs.html" class="active">Designs</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="contact.html" class="btn btn-red">Get a Quote</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="designs.html">Designs</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="btn btn-red" style="font-size:1rem;">Get a Quote</a>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="page-hero" style="background-image:url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&q=80'); padding-top:80px;">
+    <div class="container page-hero-content">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>›</span>
+        <span>Designs & Gallery</span>
+      </div>
+      <div class="section-tag">Our Portfolio</div>
+      <h1>Designs &<br/>Gallery</h1>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section section-pad">
+    <div class="container">
+      <div class="text-center">
+        <div class="section-tag reveal">Browse by Category</div>
+        <h2 class="section-title reveal">Our Completed Projects</h2>
+        <p class="section-sub reveal">Every image below represents a real project delivered by NR Plus across the greater Colombo area. Click any image to view full size.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="gallery-filter">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="1storey">1-Storey Homes</button>
+        <button class="filter-btn" data-filter="2storey">2-Storey Homes</button>
+        <button class="filter-btn" data-filter="3storey">3-Storey Homes</button>
+        <button class="filter-btn" data-filter="office">Office & Commercial</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+
+        <!-- 1-Storey -->
+        <div class="gallery-item wide" data-cat="1storey">
+          <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=900&q=80" alt="Modern single storey villa Colombo" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Modern Single-Storey Villa — Nugegoda</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-cat="1storey">
+          <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&q=80" alt="Single level home exterior" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Compact Modern Home — Kottawa</p>
+          </div>
+        </div>
+
+        <!-- 2-Storey -->
+        <div class="gallery-item" data-cat="2storey">
+          <img src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=600&q=80" alt="Two storey family home" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Family Residence — Maharagama</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-cat="2storey">
+          <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=600&q=80" alt="Two storey with balcony" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Contemporary Townhouse — Rajagiriya</p>
+          </div>
+        </div>
+        <div class="gallery-item wide" data-cat="2storey">
+          <img src="https://images.unsplash.com/photo-1600047509358-9dc75507daeb?w=900&q=80" alt="Modern two storey home" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Luxury 2-Storey Home — Battaramulla</p>
+          </div>
+        </div>
+
+        <!-- 3-Storey -->
+        <div class="gallery-item" data-cat="3storey">
+          <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&q=80" alt="Three storey luxury residence" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Luxury Residence — Colombo 07</p>
+          </div>
+        </div>
+        <div class="gallery-item wide" data-cat="3storey">
+          <img src="https://images.unsplash.com/photo-1613977257592-4871e5fcd7c4?w=900&q=80" alt="Grand three storey home" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Grand Family Mansion — Nawala</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-cat="3storey">
+          <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80" alt="Premium three level villa" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Premium Villa — Colombo 05</p>
+          </div>
+        </div>
+
+        <!-- Interior -->
+        <div class="gallery-item" data-cat="2storey">
+          <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=600&q=80" alt="Modern interior living room" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Interior — Open Plan Living</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-cat="3storey">
+          <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&q=80" alt="Luxury kitchen interior" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Interior — Luxury Kitchen</p>
+          </div>
+        </div>
+
+        <!-- Office -->
+        <div class="gallery-item wide" data-cat="office">
+          <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=900&q=80" alt="Modern office building Colombo" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Corporate Office Complex — Colombo 02</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-cat="office">
+          <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=600&q=80" alt="Modern office interior" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Office Interior — Kollupitiya</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-cat="office">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80" alt="Commercial building construction" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Commercial Building — Under Construction</p>
+          </div>
+        </div>
+
+        <!-- 1-Storey extra -->
+        <div class="gallery-item" data-cat="1storey">
+          <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=600&q=80" alt="Modern bungalow" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Modern Bungalow — Dehiwala</p>
+          </div>
+        </div>
+        <div class="gallery-item" data-cat="1storey">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80" alt="White single storey home" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Minimalist Home — Mount Lavinia</p>
+          </div>
+        </div>
+
+        <!-- Office extra -->
+        <div class="gallery-item" data-cat="office">
+          <img src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?w=600&q=80" alt="Office building exterior" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>🔍</span>
+            <p>Professional Office — Bambalapitiya</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Design Process Parallax -->
+  <div class="parallax-divider">
+    <div class="parallax-divider-content reveal">
+      <div class="section-tag">Start Your Project</div>
+      <h2>Don't See Your Style Here?</h2>
+      <p>We design fully custom homes from scratch. Bring us your ideas, sketches, or inspiration — our architects will create something unique, just for you.</p>
+      <a href="contact.html" class="btn btn-red">Book a Design Consultation</a>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-banner">
+    <div class="container">
+      <h2>Love What You See?</h2>
+      <p>Get in touch with our team for a free quote on your dream home or office project in Colombo.</p>
+      <a href="contact.html" class="btn btn-outline">Request a Free Quote</a>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <div class="logo-icon">NR</div>
+            <div class="logo-text">
+              <strong>NR Plus</strong>
+              <span>Construction & Engineering</span>
+            </div>
+          </div>
+          <p>Premier construction and engineering services across the Colombo metropolitan area. Building dreams since 2009.</p>
+          <div class="footer-social">
+            <div class="social-btn">f</div>
+            <div class="social-btn">in</div>
+            <div class="social-btn">li</div>
+            <div class="social-btn">yt</div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="designs.html">Designs & Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="designs.html">1-Storey Homes</a></li>
+            <li><a href="designs.html">2-Storey Homes</a></li>
+            <li><a href="designs.html">3-Storey Homes</a></li>
+            <li><a href="designs.html">Office Buildings</a></li>
+            <li><a href="designs.html">Renovations</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-contact-item">
+            <i class="footer-contact-icon">📍</i>
+            <span>No. 42, Galle Road, Kollupitiya, Colombo 03, Sri Lanka</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="footer-contact-icon">📞</i>
+            <span>+94 11 234 5678</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="footer-contact-icon">✉️</i>
+            <span>info@nrplus.lk</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 <span>NR Plus Construction & Engineering</span>. All rights reserved.</p>
+        <p>Designed with ❤ for Colombo, Sri Lanka</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" title="Close">✕</button>
+      <img src="" alt="Full size preview" id="lightboxImg" />
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
